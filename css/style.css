@@ -1,0 +1,147 @@
+
+.main-pic {
+	position: relative;
+	width: 100%;
+	
+}
+.pic1 {
+    position: absolute;
+    width: 100px;
+    bottom: 50px;
+    left: 80%;
+    animation: spaceman1 10s infinite;
+    
+    
+
+}
+.pic2{
+    position: absolute;
+    width: 125px;
+    bottom: 50px;
+    left: 10%;
+    animation: spaceman2 10s linear infinite;
+
+}
+.pic3{
+    position: absolute;
+    width: 120px;
+    bottom: 50px;
+    left: 45%;
+    animation: spaceman3 infinite;
+    transition-timing-function: linear;
+    animation-duration: 5s;
+
+}
+.pic4{
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    left: 60%;
+    animation: meteor1 10s infinite;
+    transition-timing-function: linear;
+
+
+}
+.pic5{
+    position: absolute;
+    width: 100px;
+    top: 55px;
+    left: 85%;
+    animation: meteor2 10s linear infinite;
+    
+
+}
+.pic6{
+    position: absolute;
+    width: 150px;
+    top: 55px;
+    right: 65%;
+    animation: meteor3 10s linear infinite;
+    
+
+}
+.pic7{
+    position: absolute;
+    width: 150px;
+    top: 30px;
+    right: 85%;
+    animation: meteor4 10s linear infinite;
+    
+
+
+}
+.pic8{
+    position: absolute;
+    width: 200px;
+    bottom: 250px;
+    left: 40%;
+    animation: spacerocket infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+   
+    
+}
+@keyframes spacerocket {
+  0%   {top: 0px;}
+  25%  {top: 100px;}
+  50%  {top: 200px;}
+  
+}
+@keyframes spaceman3 {
+	0%   {bottom: 0px;}
+  25%  {bottom: 100px;}
+  50%  {bottom: 200px;}
+}
+
+@keyframes spaceman1{
+	0% {transform:rotate(0);}
+	25% {transform:rotate(100deg);}
+	50% {transform:rotate(200deg);}
+	70% {transform:rotate(300deg);}
+	80% {transform:rotate(400deg);}
+	100% {transform:rotate(500deg);}
+	  from {bottom: 0px;}
+  to {bottom: 200px;}
+}
+@keyframes spaceman2{
+	0% {transform:rotate(0);}
+	25% {transform:rotate(100deg);}
+	50% {transform:rotate(200deg);}
+	70% {transform:rotate(300deg);}
+	80% {transform:rotate(400deg);}
+	100% {transform:rotate(500deg);}
+	  from {bottom: 0px;}
+  to {bottom: 200px;}
+}
+@keyframes meteor1{
+	  from {top: 0px;}
+  to {top: 200px;}
+
+}
+@keyframes meteor2{
+	  from {top: 0px;}
+  to {top: 200px;}
+  0% {transform:rotate(0);}
+	25% {transform:rotate(100deg);}
+	50% {transform:rotate(200deg);}
+	70% {transform:rotate(300deg);}
+	80% {transform:rotate(400deg);}
+	100% {transform:rotate(500deg);}
+
+}
+@keyframes meteor3{
+	  from {top: 0px;}
+  to {top: 200px;}
+
+}
+@keyframes meteor4{
+	  from {top: 0px;}
+  to {top: 200px;}
+  0% {transform:rotate(0);}
+	25% {transform:rotate(100deg);}
+	50% {transform:rotate(200deg);}
+	70% {transform:rotate(300deg);}
+	80% {transform:rotate(400deg);}
+	100% {transform:rotate(500deg);}
+
+}
